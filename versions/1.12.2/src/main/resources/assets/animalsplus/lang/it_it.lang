@@ -1,0 +1,21 @@
+animals.outdated=Una nuova versione di Animals Plus e' stata rilasciata!
+animals.download=Scaricala a: %s
+
+entity.Duck.name=Papera
+entity.Pinguin.name=Pinguino
+entity.Centipede.name=Millepiedi
+entity.Cricket.name=Grillo
+entity.Butterfly.name=Farfalla
+entity.Moth.name=Falena
+entity.Snake.name=Serpente
+entity.Chameleon.name=Camaleonte
+entity.Lizard.name=Lucertola
+entity.Mouse.name=Topo
+entity.Bird.name=Uccello
+entity.Fish.name=Pesce
+entity.TropicalFish.name=Pesce tropicale
+entity.Angler.name=Rana Pescatrice
+entity.MantaRay.name=Manta
+entity.Whale.name=Balena
+entity.Piranha.name=Piranha
+entity.Shark.name=Squalo

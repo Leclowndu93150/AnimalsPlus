@@ -1,0 +1,159 @@
+{
+    "entity.bird.cardinal.ambient": {
+        "sounds": [
+            "animalsplus:mob/bird/cardinal/ambient1",
+            "animalsplus:mob/bird/cardinal/ambient2"
+        ]
+    },
+    "entity.bird.cardinal.death": {
+        "sounds": [
+            "animalsplus:mob/bird/cardinal/death"
+        ]
+    },
+    "entity.bird.cardinal.hurt": {
+        "sounds": [
+            "animalsplus:mob/bird/cardinal/hurt"
+        ]
+    },
+    "entity.bird.chickadee.ambient": {
+        "sounds": [
+            "animalsplus:mob/bird/chickadee/ambient1",
+            "animalsplus:mob/bird/chickadee/ambient2"
+        ]
+    },
+    "entity.bird.chickadee.hurt": {
+        "sounds": [
+            "animalsplus:mob/bird/chickadee/hurt"
+        ]
+    },
+    "entity.bird.crow.ambient": {
+        "sounds": [
+            "animalsplus:mob/bird/crow/ambient"
+        ]
+    },
+    "entity.bird.crow.death": {
+        "sounds": [
+            "animalsplus:mob/bird/crow/death"
+        ]
+    },
+    "entity.bird.crow.hurt": {
+        "sounds": [
+            "animalsplus:mob/bird/crow/hurt"
+        ]
+    },
+    "entity.bird.jay.ambient": {
+        "sounds": [
+            "animalsplus:mob/bird/jay/ambient1",
+            "animalsplus:mob/bird/jay/ambient2"
+        ]
+    },
+    "entity.bird.jay.hurt": {
+        "sounds": [
+            "animalsplus:mob/bird/jay/hurt"
+        ]
+    },
+    "entity.bird.parrot.ambient": {
+        "sounds": [
+            "animalsplus:mob/bird/parrot/ambient1",
+            "animalsplus:mob/bird/parrot/ambient2",
+            "animalsplus:mob/bird/parrot/ambient3"
+        ]
+    },
+    "entity.bird.parrot.hurt": {
+        "sounds": [
+            "animalsplus:mob/bird/parrot/hurt"
+        ]
+    },
+    "entity.bird.sparrow.ambient": {
+        "sounds": [
+            "animalsplus:mob/bird/sparrow/ambient"
+        ]
+    },
+    "entity.bird.sparrow.hurt": {
+        "sounds": [
+            "animalsplus:mob/bird/sparrow/hurt"
+        ]
+    },
+    "entity.camel.ambient": {
+        "sounds": [
+            "animalsplus:mob/camel/ambient1",
+            "animalsplus:mob/camel/ambient2",
+            "animalsplus:mob/camel/ambient3"
+        ]
+    },
+    "entity.camel.death": {
+        "sounds": [
+            "animalsplus:mob/camel/death"
+        ]
+    },
+    "entity.camel.hurt": {
+        "sounds": [
+            "animalsplus:mob/camel/hurt"
+        ]
+    },
+    "entity.cricket.chirp": {
+        "sounds": [
+            "animalsplus:mob/cricket/chirp"
+        ]
+    },
+    "entity.crocodile.ambient": {
+        "sounds": [
+            "animalsplus:mob/crocodile/ambient1",
+            "animalsplus:mob/crocodile/ambient2"
+        ]
+    },
+    "entity.crocodile.attack": {
+        "sounds": [
+            "animalsplus:mob/crocodile/attack"
+        ]
+    },
+    "entity.crocodile.death": {
+        "sounds": [
+            "animalsplus:mob/crocodile/death"
+        ]
+    },
+    "entity.crocodile.hurt": {
+        "sounds": [
+            "animalsplus:mob/crocodile/hurt1",
+            "animalsplus:mob/crocodile/hurt2"
+        ]
+    },
+    "entity.duck.ambient": {
+        "sounds": [
+            "animalsplus:mob/duck/ambient"
+        ]
+    },
+    "entity.duck.hurt": {
+        "sounds": [
+            "animalsplus:mob/duck/hurt"
+        ]
+    },
+    "entity.penguin.ambient": {
+        "sounds": [
+            "animalsplus:mob/penguin/ambient1",
+            "animalsplus:mob/penguin/ambient2"
+        ]
+    },
+    "entity.penguin.hurt": {
+        "sounds": [
+            "animalsplus:mob/penguin/hurt"
+        ]
+    },
+    "entity.snake.ambient": {
+        "sounds": [
+            "animalsplus:mob/snake/ambient"
+        ]
+    },
+    "entity.whale.ambient": {
+        "sounds": [
+            "animalsplus:mob/whale/ambient1",
+            "animalsplus:mob/whale/ambient2",
+            "animalsplus:mob/whale/ambient3"
+        ]
+    },
+    "entity.whale.death": {
+        "sounds": [
+            "animalsplus:mob/whale/death"
+        ]
+    }
+}

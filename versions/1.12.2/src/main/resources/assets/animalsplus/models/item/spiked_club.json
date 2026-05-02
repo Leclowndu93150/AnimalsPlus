@@ -1,0 +1,6 @@
+{
+    "parent": "item/handheld",
+    "textures": {
+        "layer0": "animalsplus:items/spiked_club"
+    }
+}

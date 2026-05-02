@@ -1,0 +1,21 @@
+animals.outdated=Nowa wersja Animals Plus jest!
+animals.download=Pobier na: %s
+
+entity.Duck.name=Kaczka
+entity.Pinguin.name=Pingwin
+entity.Centipede.name=Stonoga
+entity.Cricket.name=Krykieta
+entity.Butterfly.name=Motyl
+entity.Moth.name=Cma
+entity.Snake.name=Waz
+entity.Chameleon.name=Kameleon
+entity.Lizard.name=Jaszczurka
+entity.Mouse.name=Mysz
+entity.Bird.name=Ptaka
+entity.Fish.name=Ryba
+entity.TropicalFish.name=Tropikalna Ryba
+entity.Angler.name=Zabnica
+entity.MantaRay.name=Manta 
+entity.Whale.name=Wieloryb
+entity.Piranha.name=Piranha
+entity.Shark.name=Rekin
