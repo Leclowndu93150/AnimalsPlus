@@ -1,6 +1,8 @@
 package com.leclowndu93150.animalsplus.init;
 
 import com.leclowndu93150.animalsplus.AnimalsPlus;
+import net.minecraft.entity.EntityLiving;
+import net.minecraft.entity.EntitySpawnPlacementRegistry;
 import com.leclowndu93150.animalsplus.entity.ambient.*;
 import com.leclowndu93150.animalsplus.entity.passive.*;
 import com.leclowndu93150.animalsplus.entity.water.*;
@@ -41,6 +43,34 @@ public class ModEntities {
         register(EntityKomodoDragon.class,"KomodoDragon",24, 80, 3, true, 0x4F422F, 12077098);
         register(EntityCamel.class,      "Camel",        25, 80, 3, true, 14192438, 15382652);
         register(EntityKiwi.class,       "Kiwi",         26, 80, 3, true, 6245698,  16509163);
+
+        EntitySpawnPlacementRegistry.setPlacementType(EntityFish.class,        EntityLiving.SpawnPlacementType.IN_WATER);
+        EntitySpawnPlacementRegistry.setPlacementType(EntityTropicalFish.class, EntityLiving.SpawnPlacementType.IN_WATER);
+        EntitySpawnPlacementRegistry.setPlacementType(EntityPiranha.class,      EntityLiving.SpawnPlacementType.IN_WATER);
+        EntitySpawnPlacementRegistry.setPlacementType(EntityAngler.class,       EntityLiving.SpawnPlacementType.IN_WATER);
+        EntitySpawnPlacementRegistry.setPlacementType(EntityMantaRay.class,     EntityLiving.SpawnPlacementType.IN_WATER);
+        EntitySpawnPlacementRegistry.setPlacementType(EntityWhale.class,        EntityLiving.SpawnPlacementType.IN_WATER);
+        EntitySpawnPlacementRegistry.setPlacementType(EntityOctopus.class,      EntityLiving.SpawnPlacementType.IN_WATER);
+        EntitySpawnPlacementRegistry.setPlacementType(EntityShark.class,        EntityLiving.SpawnPlacementType.IN_WATER);
+        EntitySpawnPlacementRegistry.setPlacementType(EntityCentipede.class,    EntityLiving.SpawnPlacementType.ON_GROUND);
+        EntitySpawnPlacementRegistry.setPlacementType(EntityCricket.class,      EntityLiving.SpawnPlacementType.ON_GROUND);
+        EntitySpawnPlacementRegistry.setPlacementType(EntityButterfly.class,    EntityLiving.SpawnPlacementType.ON_GROUND);
+        EntitySpawnPlacementRegistry.setPlacementType(EntityMoth.class,         EntityLiving.SpawnPlacementType.ON_GROUND);
+        EntitySpawnPlacementRegistry.setPlacementType(EntityDragonfly.class,    EntityLiving.SpawnPlacementType.ON_GROUND);
+        EntitySpawnPlacementRegistry.setPlacementType(EntitySnake.class,        EntityLiving.SpawnPlacementType.ON_GROUND);
+        EntitySpawnPlacementRegistry.setPlacementType(EntityLizard.class,       EntityLiving.SpawnPlacementType.ON_GROUND);
+        EntitySpawnPlacementRegistry.setPlacementType(EntityChameleon.class,    EntityLiving.SpawnPlacementType.ON_GROUND);
+        EntitySpawnPlacementRegistry.setPlacementType(EntityMouse.class,        EntityLiving.SpawnPlacementType.ON_GROUND);
+        EntitySpawnPlacementRegistry.setPlacementType(EntityBird.class,         EntityLiving.SpawnPlacementType.ON_GROUND);
+        EntitySpawnPlacementRegistry.setPlacementType(EntityDuck.class,         EntityLiving.SpawnPlacementType.ON_GROUND);
+        EntitySpawnPlacementRegistry.setPlacementType(EntityPenguin.class,      EntityLiving.SpawnPlacementType.ON_GROUND);
+        EntitySpawnPlacementRegistry.setPlacementType(EntityCrab.class,         EntityLiving.SpawnPlacementType.ON_GROUND);
+        EntitySpawnPlacementRegistry.setPlacementType(EntityTortoise.class,     EntityLiving.SpawnPlacementType.ON_GROUND);
+        EntitySpawnPlacementRegistry.setPlacementType(EntityCrocodile.class,    EntityLiving.SpawnPlacementType.ON_GROUND);
+        EntitySpawnPlacementRegistry.setPlacementType(EntityKomodoDragon.class, EntityLiving.SpawnPlacementType.ON_GROUND);
+        EntitySpawnPlacementRegistry.setPlacementType(EntityCamel.class,        EntityLiving.SpawnPlacementType.ON_GROUND);
+        EntitySpawnPlacementRegistry.setPlacementType(EntityLyrebird.class,     EntityLiving.SpawnPlacementType.ON_GROUND);
+        EntitySpawnPlacementRegistry.setPlacementType(EntityKiwi.class,         EntityLiving.SpawnPlacementType.ON_GROUND);
     }
 
     public static void init() {

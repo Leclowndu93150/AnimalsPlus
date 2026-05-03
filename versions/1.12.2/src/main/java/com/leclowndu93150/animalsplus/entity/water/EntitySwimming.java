@@ -98,7 +98,8 @@ public class EntitySwimming extends EntityWaterMob {
     @Override
     public boolean attackEntityFrom(DamageSource source, float amount) {
         boolean result = super.attackEntityFrom(source, amount);
-        if (result && isAggressive && source.getTrueSource() instanceof EntityLivingBase) {
+        if (result && isAggressive && source.getTrueSource() instanceof EntityLivingBase
+                && !isHostileFish(source.getTrueSource())) {
             targetEntity = source.getTrueSource();
             swimTargetX = targetEntity.posX;
             swimTargetY = targetEntity.posY + 0.4;
@@ -106,6 +107,10 @@ public class EntitySwimming extends EntityWaterMob {
             isAttacking = true;
         }
         return result;
+    }
+
+    protected boolean isHostileFish(Entity entity) {
+        return entity instanceof EntityShark || entity instanceof EntityPiranha || entity instanceof EntityAngler;
     }
 
     protected Entity findEntityToAttack() {
@@ -116,7 +121,7 @@ public class EntitySwimming extends EntityWaterMob {
     @Override
     public void applyEntityCollision(Entity entity) {
         super.applyEntityCollision(entity);
-        if (isAggressive && entity instanceof EntityLivingBase)
+        if (isAggressive && entity instanceof EntityLivingBase && !isHostileFish(entity))
             attackEntityAsMob(entity);
     }
 

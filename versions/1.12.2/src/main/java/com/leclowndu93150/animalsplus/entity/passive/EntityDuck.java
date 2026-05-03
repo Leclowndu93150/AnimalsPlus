@@ -4,10 +4,12 @@ import com.leclowndu93150.animalsplus.init.ModSounds;
 import net.minecraft.entity.EntityAgeable;
 import net.minecraft.entity.passive.EntityChicken;
 import net.minecraft.init.Items;
-import net.minecraft.item.ItemStack;
 import net.minecraft.util.DamageSource;
+import net.minecraft.util.ResourceLocation;
 import net.minecraft.util.SoundEvent;
 import net.minecraft.world.World;
+
+import javax.annotation.Nullable;
 
 public class EntityDuck extends EntityChicken {
     public EntityDuck(World world) {
@@ -30,11 +32,15 @@ public class EntityDuck extends EntityChicken {
         return new EntityDuck(world);
     }
 
+    @Nullable
+    @Override
+    protected ResourceLocation getLootTable() {
+        return null;
+    }
+
     @Override
     protected void dropFewItems(boolean wasRecentlyHit, int lootingModifier) {
         int feathers = rand.nextInt(3);
         for (int i = 0; i < feathers; i++) dropItem(Items.FEATHER, 1);
-        if (wasRecentlyHit) entityDropItem(new ItemStack(Items.COOKED_CHICKEN), 0.5f);
-        else entityDropItem(new ItemStack(Items.CHICKEN), 0.5f);
     }
 }
